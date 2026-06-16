@@ -2,12 +2,6 @@
 
 This repository contains the complete analysis pipeline for the **spatial single‑cell transcriptomics** of the tropical water lily (*Nymphaea colorata*). The project aims to dissect the cellular heterogeneity, developmental trajectories, and molecular mechanisms underlying the formation of complex floral organs (sepals, petals, stamens, and carpels).
 
-## Objectives
-
-- **Cellular heterogeneity** – Identify and characterise distinct cell types within each floral organ using clustering analysis.
-- **Developmental trajectories** – Reconstruct the differentiation paths from meristematic cells to mature floral organs.
-- **Molecular mechanisms** – Investigate the expression dynamics of key transcription factors (e.g., MADS‑box genes) and their role in floral organ identity determination.
-
 ## Key features
 
 - Single‑cell resolution combined with spatial positional information (barcodes coordinates).
@@ -59,8 +53,8 @@ STEEL is an unsupervised manifold learning algorithm designed for spatial transc
 
 ### Analysis workflow
 
-1. Initial clustering – STEEL algorithm applied to spatial barcodes (steel_clustering.sh).
-2. Cell type annotation – Based on known marker genes and spatial coordinates.
-3. Trajectory inference – Monocle3 constructs developmental paths (see meristem_cell_monocel.R and ot2st_trajectory.R).
-4. Cross‑organ comparison – Correlation of gene expression between ovary, stamen, and pistil (cor_ot_vs_it_vs_st.R).
+1. Initial clustering – STEEL and Seurat algorithm applied to spatial barcodes (steel_clustering.sh and S4_clustering.R).
+2. Trajectory inference – Monocle2 constructs developmental trajectory (see meristem_cell_monocel.R and ot2st_trajectory.R).
+3. Cross‑organ comparison – Correlation of gene expression between ovary, stamen, and pistil (cor_ot_vs_it_vs_st.R).
+4. Cross‑species comparison - Correlation of organ co-expression genes between N.colorata and P.aphrodite (cor_nym_vs_pha.R).
 5. Mechanistic investigation – MADS‑box expression patterns and tetramer optimisation (MADS-box_tetramer.R).
