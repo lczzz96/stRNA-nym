@@ -1,8 +1,5 @@
 # Analysis for Spatiotemporal transcriptomics of water lily (Nymphaea colorata)
 
-[![R 99.2%](https://img.shields.io/badge/R-99.2%25-276DC3?logo=r&logoColor=white)](https://www.r-project.org/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
 This repository contains the complete analysis pipeline for the **spatial single‑cell transcriptomics** of the tropical water lily (*Nymphaea colorata*). The project aims to dissect the cellular heterogeneity, developmental trajectories, and molecular mechanisms underlying the formation of complex floral organs (sepals, petals, stamens, and carpels).
 
 ## Objectives
@@ -19,7 +16,7 @@ This repository contains the complete analysis pipeline for the **spatial single
 - Fully reproducible R‑based workflow with shell scripts for clustering.
 
 ## Repository structure
-
+```
 st_water_lily/
 ├── data_for_analysis/ # Intermediate data files
 │ ├── L7_petal_barcodes_pos.tsv
@@ -34,7 +31,7 @@ st_water_lily/
 ├── ot2st_trajectory.R # Trajectory from outer tepal to stamen
 ├── steel_clustering.sh # Cell clustering by STEEL
 └── README.md
-
+```
 
 ## Data sources
 
