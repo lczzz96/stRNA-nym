@@ -21,7 +21,7 @@ st_water_lily/
 ├── S4_clustering.R # Clustering analysis for Stage4 samples
 ├── cor_nym_vs_pha.R # Cross‑species co‑expression analysis
 ├── cor_ot_vs_it_vs_st.R # Expression correlation across different organs
-├── meristem_cell_monocel.R # Monocle trajectory from meristem to organs
+├── meristem_cell_trajectory.R # Monocle trajectory from meristem to organs
 ├── ot2st_trajectory.R # Trajectory from outer tepal to stamen
 ├── steel_clustering.sh # Cell clustering by STEEL
 └── README.md
