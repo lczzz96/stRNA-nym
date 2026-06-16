@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite it using the metadata below."
+title: "Analysis for Spatiotemporal transcriptomics of water lily (Nymphaea colorata)"
+authors:
+  - family-names: Liu
+    given-names: Chang
+  - family-names: Wang
+    given-names: Ge
+  - family-names: Cao
+    given-names: BinBin
+  - family-names: Li
+    given-names: Yonglong
+  - family-names: Chen
+    given-names: Yamao
+  - family-names: Guo
+    given-names: Chunce
+  - family-names: Qi
+    given-names: Ji
+repository-code: "https://github.com/lczzz96/stRNA-nym"
+url: "https://github.com/lczzz96/stRNA-nym"
+abstract: "Complete analysis pipeline for spatial single-cell transcriptomics of the tropical water lily (Nymphaea colorata), including cellular heterogeneity, developmental trajectories, and molecular mechanisms underlying floral organ formation."
+keywords:
+  - spatial transcriptomics
+  - Nymphaea colorata
+  - floral organ development
+  - trajectory inference
+license: "NOASSERTION"
