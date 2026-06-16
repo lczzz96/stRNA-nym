@@ -19,6 +19,7 @@ This repository contains the complete analysis pipeline for the **spatial single
 - Fully reproducible R‑based workflow with shell scripts for clustering.
 
 ## Repository structure
+
 st_water_lily/
 ├── data_for_analysis/ # Intermediate data files
 │ ├── L7_petal_barcodes_pos.tsv
