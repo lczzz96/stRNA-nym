@@ -20,19 +20,19 @@ This repository contains the complete analysis pipeline for the **spatial single
 
 ## Repository structure
 st_water_lily/
-├── data_for_analysis/ # Intermediate data files (spatial barcodes, etc.)
+├── data_for_analysis/ # Intermediate data files
 │ ├── L7_petal_barcodes_pos.tsv
 │ ├── L7_sepal_barcodes_pos.tsv
 │ ├── L7_stamen1-4_barcodes_pos.tsv
 │ └── ...
 ├── MADS-box_tetramer.R # MADS‑box tetramer optimisation model
-├── S4_clustering.R # Clustering analysis for carpel (S4)
-├── cor_nym_vs_pha.R # Cross‑species MADS‑box co‑expression analysis
+├── S4_clustering.R # Clustering analysis for Stage4 samples
+├── cor_nym_vs_pha.R # Cross‑species co‑expression analysis
 ├── cor_ot_vs_it_vs_st.R # Expression correlation across different organs
-├── meristem_cell_monocel.R # Monocle3 trajectory from meristem to organs
-├── ot2st_trajectory.R # Trajectory from ovary to stamen
-├── steel_clustering.sh # Shell script calling the STEEL clustering tool
-└── README.md # This file
+├── meristem_cell_monocel.R # Monocle trajectory from meristem to organs
+├── ot2st_trajectory.R # Trajectory from outer tepal to stamen
+├── steel_clustering.sh # Cell clustering by STEEL
+└── README.md
 
 
 ## Data sources
